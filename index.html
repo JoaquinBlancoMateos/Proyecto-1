@@ -3,9 +3,268 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/styles.css" />
-  </head>
-  <body>
+  <meta name="description" content="Landing page de una tienda tecnológica inspirada en Power Planet" />
+  <title>Powerplanet | Tienda tecnológica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span>¿Te vas de viaje? <strong>¡Selección de ofertas en Dashcam!</strong></span>
+    </div>
+  </div>
 
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand-wrap">
+        <button class="menu-button" aria-label="Abrir menú">☰</button>
+        <div class="brand" aria-label="Powerplanet logo">
+          <span class="brand-icon"></span>
+          <span class="brand-text">Powerplanet</span>
+        </div>
+      </div>
+
+      <label class="searchbar" aria-label="Buscar productos">
+        <span class="search-icon">⌕</span>
+        <input type="text" value="Buscar..." aria-label="Búsqueda" />
+      </label>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#">Ofertas limitadas</a>
+        <a href="#">Contáctanos</a>
+      </nav>
+
+      <div class="header-icons" aria-label="Acciones de usuario">
+        <button aria-label="Idioma">ES</button>
+        <button aria-label="Carrito">🛒</button>
+        <button aria-label="Cuenta">◔</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-pill-wrap">
+            <span class="hero-pill">◉ Ofertas en dashboard</span>
+            <span class="hero-pill second">◉ Tu testigo en carretera</span>
+          </div>
+
+          <h1>
+            Su palabra<br />
+            contra tu <span class="highlight">DASHCAM</span>
+          </h1>
+        </div>
+
+        <div class="hero-visual" aria-label="Imagen promocional de dashcam">
+          <div class="product-shot"></div>
+          <div class="mini-badge">
+            <span>Parte del sistema</span>
+            <strong>Resuelto</strong>
+          </div>
+          <div class="floating-card">
+            <p>Sin testigos, no hay culpables</p>
+            <small>Con tu dashcam, tampoco hay dudas</small>
+            <button>Ver ofertas</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-tabs" aria-label="Categorías destacadas">
+        <span class="active">Ofertas dashcam</span>
+        <span>Ofertas elego</span>
+        <span>Todo la tecnología</span>
+      </div>
+    </section>
+
+    <section class="offers">
+      <div class="section-title">
+        <h2>Ofertas top</h2>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-one"></div>
+          <div class="product-details">
+            <h3>Samsung Galaxy Z Flip 5</h3>
+            <p>8GB 256GB / 256GB / 512GB</p>
+            <div class="rating">★★★★★ <span>4.8</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">1.059,00€</span>
+                <strong>1.059,00€</strong>
+              </div>
+              <span class="discount">-15%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-two"></div>
+          <div class="product-details">
+            <h3>Samsung Galaxy Z</h3>
+            <p>Fold 6 256GB / 512GB</p>
+            <div class="rating">★★★★★ <span>4.7</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">1.949,00€</span>
+                <strong>1.249,00€</strong>
+              </div>
+              <span class="discount">-36%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-three"></div>
+          <div class="product-details">
+            <h3>Meta Quest Pro 256GB</h3>
+            <p>Gafas de realidad virtual</p>
+            <div class="rating">★★★★★ <span>4.9</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">649,00€</span>
+                <strong>649,00€</strong>
+              </div>
+              <span class="discount">-38%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-four"></div>
+          <div class="product-details">
+            <h3>Miia Tool Kit con</h3>
+            <p>destornillador eléctrico</p>
+            <div class="rating">★★★★★ <span>4.6</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">49,95€</span>
+                <strong>49,95€</strong>
+              </div>
+              <span class="discount">-20%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-five"></div>
+          <div class="product-details">
+            <h3>Xiaomi Robot Vacuum</h3>
+            <p>2 en 1 con base de carga</p>
+            <div class="rating">★★★★★ <span>4.7</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">358,99€</span>
+                <strong>358,99€</strong>
+              </div>
+              <span class="discount">-43%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-six"></div>
+          <div class="product-details">
+            <h3>Xiaomi Watch 5</h3>
+            <p>46 mm smartwatch</p>
+            <div class="rating">★★★★★ <span>4.8</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">169,00€</span>
+                <strong>169,00€</strong>
+              </div>
+              <span class="discount">-33%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-seven"></div>
+          <div class="product-details">
+            <h3>Deerma FD15G</h3>
+            <p>Ventilador inteligente</p>
+            <div class="rating">★★★★★ <span>4.5</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">39,99€</span>
+                <strong>39,99€</strong>
+              </div>
+              <span class="discount">-42%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="badge">Envío gratis</span>
+          <div class="product-image image-eight"></div>
+          <div class="product-details">
+            <h3>Xiaomi Redmi Buds 5</h3>
+            <p>Pro negro con case</p>
+            <div class="rating">★★★★★ <span>4.7</span></div>
+            <div class="price-row">
+              <div>
+                <span class="old-price">35,99€</span>
+                <strong>35,99€</strong>
+              </div>
+              <span class="discount">-42%</span>
+            </div>
+            <small>En stock • Reembolso</small>
+          </div>
+        </article>
+      </div>
+
+      <div class="shop-categories">
+        <article class="category-card">
+          <div class="category-thumb thumb-one"></div>
+          <h3>Smartphones</h3>
+        </article>
+        <article class="category-card">
+          <div class="category-thumb thumb-two"></div>
+          <h3>Tablets</h3>
+        </article>
+        <article class="category-card">
+          <div class="category-thumb thumb-three"></div>
+          <h3>Smartwatches</h3>
+        </article>
+        <article class="category-card">
+          <div class="category-thumb thumb-four"></div>
+          <h3>Auriculares</h3>
+        </article>
+        <article class="category-card">
+          <div class="category-thumb thumb-five"></div>
+          <h3>TV, Audio y Video</h3>
+        </article>
+        <article class="category-card">
+          <div class="category-thumb thumb-six"></div>
+          <h3>Gaming</h3>
+        </article>
+        <article class="category-card">
+          <div class="category-thumb thumb-seven"></div>
+          <h3>Hogar</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button class="chat-button" aria-label="Abrir chat">✦</button>
 </body>
 </html>
