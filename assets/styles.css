@@ -302,7 +302,7 @@ img {
   border-radius: 18px;
   background:
     linear-gradient(135deg, rgba(255,255,255,0.08), rgba(0,0,0,0.03)),
-    url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+    url('./img/rathalos.jpg') center/cover no-repeat;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55);
   transform: scale(1.03);
 }
@@ -541,7 +541,7 @@ img {
 .shop-categories {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 18px;
   margin: 36px 0 0;
   padding: 0 0 24px;
@@ -571,13 +571,11 @@ img {
   box-shadow: inset 0 0 0 8px rgba(255,255,255,0.4);
 }
 
-.thumb-one { background: linear-gradient(135deg, #d9d9d9, #f6f6f6), url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
-.thumb-two { background: linear-gradient(135deg, #dcb7f9, #f5e5ff), url('https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
-.thumb-three { background: linear-gradient(135deg, #c8f1ff, #d8ffdc), url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
-.thumb-four { background: linear-gradient(135deg, #ffdbd6, #ffe5a8), url('https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
-.thumb-five { background: linear-gradient(135deg, #d5d0ff, #f9d3ef), url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
-.thumb-six { background: linear-gradient(135deg, #b5f2d1, #c7d0ff), url('https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
-.thumb-seven { background: linear-gradient(135deg, #ffd5b3, #ffd8ef), url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=500&q=80') center/cover no-repeat; }
+.thumb-one { background: linear-gradient(135deg, #d9d9d9, #f6f6f6), url('./img/armas.jpg') center/cover no-repeat; }
+.thumb-two { background: linear-gradient(135deg, #dcb7f9, #f5e5ff), url('./img/armaduras.jpg') center/cover no-repeat; }
+.thumb-three { background: linear-gradient(135deg, #c8f1ff, #d8ffdc), url('./img/Digivices.jpg') center/cover no-repeat; }
+.thumb-four { background: linear-gradient(135deg, #ffdbd6, #ffe5a8), url('./img/amuletos.jpg') center/cover no-repeat; }
+.thumb-five { background: linear-gradient(135deg, #d5d0ff, #f9d3ef), url('./img/mounturos.jpg') center/cover no-repeat; }
 
 .category-card h3 {
   margin: 0;
