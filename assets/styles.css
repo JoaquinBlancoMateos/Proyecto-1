@@ -29,12 +29,22 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Inter', sans-serif;
   background:
     radial-gradient(circle at top, rgba(110, 229, 255, 0.12), transparent 22%),
     radial-gradient(circle at bottom right, rgba(255, 125, 216, 0.08), transparent 18%),
     linear-gradient(180deg, #c7ccd3 0%, #c9ced6 100%);
   color: var(--text);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  margin: 0;
 }
 
 a {
@@ -613,7 +623,7 @@ img {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .searchbar {
     order: 3;
     max-width: none;
@@ -685,5 +695,38 @@ img {
     height: 54px;
     right: 14px;
     bottom: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .topbar-inner {
+    font-size: 0.7rem;
+  }
+
+  .header-inner {
+    min-height: auto;
+    padding: 12px 0;
+  }
+
+  .brand {
+    font-size: 1.2rem;
+  }
+
+  .main-nav {
+    gap: 12px;
+    font-size: 0.8rem;
+  }
+
+  .hero-pill {
+    font-size: 0.62rem;
+    padding: 7px 12px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .floating-card p {
+    font-size: 1.1rem;
   }
 }
